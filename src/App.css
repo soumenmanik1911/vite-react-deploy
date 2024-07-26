@@ -1,0 +1,91 @@
+/* Make the container responsive on mobile devices */
+.container {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Make the input field and buttons responsive on mobile devices */
+.third {
+  flex-direction: column;
+  align-items: center;
+}
+
+.third input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.third button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Make the todo list items responsive on mobile devices */
+.todos {
+  flex-direction: column;
+  align-items: center;
+}
+
+.showtodo {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.showtodo input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.showtodo .boxe {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.showtodo .buttons {
+  flex-direction: column;
+  align-items: center;
+}
+
+.showtodo .buttons button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Add media query for mobile devices */
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin: 10px auto;
+  }
+  .third input {
+    font-size: 14px;
+  }
+  .third button {
+    font-size: 14px;
+  }
+  .showtodo .boxe {
+    font-size: 14px;
+  }
+  .showtodo .buttons button {
+    font-size: 14px;
+  }
+}
+
+#blue{
+  color: rgb(57, 5, 5);
+  font-size: larger;
+  font-weight: 600;
+}
